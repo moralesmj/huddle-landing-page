@@ -4,7 +4,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 export default function Home() {
 
     return (
-        <body className="grid grid-rows-2 sm:grid-rows-none sm:grid-cols-2 p-8 sm:p-14 bg-violet bg-mobile sm:bg-desktop bg-no-repeat sm:bg-center sm:bg-cover min-h-screen">
+        <body className="grid grid-rows-2 sm:grid-rows-none sm:grid-cols-2 p-8 sm:p-14 bg-violet bg-mobile sm:bg-desktop bg-no-repeat bg-center bg-cover min-h-screen">
             <section className="flex flex-col place-content-start">
                 <div className="flex justify-start h-7 sm:h-10">
                     <img className="h-full" src="/assets/logo.svg" alt="huddle" />
@@ -12,6 +12,12 @@ export default function Home() {
                 <div className="flex grow items-center justify-center my-6">
                     <img className="w-80 sm:w-11/12 md:w-full" src="/assets/illustration-mockups.svg" alt="mockup" />
                 </div>
+                <footer className="flex flex-col text-left text-xs text-slate-200 space-y-1 p-2">
+                    <div>
+                        Challenge by <a className="poppins-400 underline" href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>
+                    </div>
+                    <div>Coded by <a className="poppins-400 italic" href="https://github.com/moralesmj">moralesmj</a></div>
+                </footer>
             </section>
             <main className="flex flex-col items-center sm:items-end">
                 <div className="flex flex-col items-center sm:items-start justify-center grow gap-y-6 sm:pl-20">
